@@ -2,6 +2,11 @@
 {
   "timeZone": "America/Los_Angeles",
   "dependencies": {
+    "libraries": [{
+      "userSymbol": "OAuth1",
+      "libraryId": "1CXDCY5sqT9ph64fFwSzVtXnbjpSfWdRymafDrtIZ7Z_hwysTY7IIhi7s",
+      "version": "16"
+    }]
   },
   "exceptionLogging": "STACKDRIVER",
   
@@ -14,6 +19,7 @@
   ],
   "urlFetchWhitelist": [
     "https://trello.com/",
+    "https://api.trello.com/",
     "https://script.google.com/a/kenworthy.io"
   ],
   "gmail": {
@@ -24,7 +30,9 @@
       "onTriggerFunction": "buildQuickLinkUI"
     }],
     "openLinkUrlPrefixes": [
-      "https://upload.wikimedia.org/"
-    ]
+      "https://upload.wikimedia.org/",
+      "https://trello.com/"
+    ],
+    "authorizationCheckFunction": "testAuthFunc"
   }
 }

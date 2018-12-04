@@ -1,0 +1,30 @@
+
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.metadata",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "urlFetchWhitelist": [
+    "https://trello.com/",
+    "https://script.google.com/a/kenworthy.io"
+  ],
+  "gmail": {
+    "name": "QuickLinks",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/100px-External.svg.png",
+    "contextualTriggers": [{
+      "unconditional": {},
+      "onTriggerFunction": "buildQuickLinkUI"
+    }],
+    "openLinkUrlPrefixes": [
+      "https://upload.wikimedia.org/"
+    ]
+  }
+}

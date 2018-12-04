@@ -1,11 +1,10 @@
-
 {
   "timeZone": "America/Los_Angeles",
   "dependencies": {
     "libraries": [{
       "userSymbol": "OAuth1",
       "libraryId": "1CXDCY5sqT9ph64fFwSzVtXnbjpSfWdRymafDrtIZ7Z_hwysTY7IIhi7s",
-      "version": "16"
+      "version": "15"
     }]
   },
   "exceptionLogging": "STACKDRIVER",
@@ -31,8 +30,12 @@
     }],
     "openLinkUrlPrefixes": [
       "https://upload.wikimedia.org/",
+      "https://api.trello.com/",
       "https://trello.com/"
     ],
-    "authorizationCheckFunction": "testAuthFunc"
+    "universalActions": [{
+      "text": "Logout",
+      "runFunction": "logout"
+    }]
   }
 }

@@ -1,3 +1,10 @@
+### Install add-on in Gmail
+1. Open Gmail
+1. Navigate to `Settings`->`Add-ons`
+1. Check `Enable developer add-ons for my account`
+1. Enter deployment ID (obtain from dev setup or stable deployments below)
+1. Click install
+
 ### Setup for development
 
 1. Clone repo
@@ -18,11 +25,6 @@
 1. Navigate to `Publish`->`Deploy from manifest...`
 1. Click `Get ID`
 1. Copy the deployment ID
-1. Open Gmail
-1. Navigate to `Settings`->`Add-ons`
-1. Check `Enable developer add-ons for my account`
-1. Enter deployment ID 
-1. Click install
 
 ### Stable deployments
 * `AKfycbzVf5oSzTU0uKvWv3Az5LV5E2NTAj1Z-waBEeSE_AIGZXG1yj1kvU9B5EFz3Em9GRUjnA`

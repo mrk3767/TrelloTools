@@ -28,3 +28,9 @@
 
 ### Stable deployments
 * `AKfycbzVf5oSzTU0uKvWv3Az5LV5E2NTAj1Z-waBEeSE_AIGZXG1yj1kvU9B5EFz3Em9GRUjnA`
+
+### Thanks
+* [Google Apps Script](https://developers.google.com/apps-script/overview)
+* [Trello API](https://developers.trello.com)
+* [Google Clasp](https://github.com/google/clasp)
+* [Microsoft TypeScript](https://github.com/Microsoft/TypeScript)

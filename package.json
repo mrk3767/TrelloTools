@@ -1,0 +1,13 @@
+{
+  "name": "betterTrello",
+  "version": "1.0.0",
+  "description": "Trello's thing didn't have email link attachments so I did this...",
+  "repository": "https://github.com/mrk3767/betterTrello",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "clasp": "^0.1.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.3.0-dev.20181205"
+  }
+}

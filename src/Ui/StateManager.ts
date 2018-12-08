@@ -1,6 +1,6 @@
 const userProperties = PropertiesService.getUserProperties();
 
-class StateManager {
+export class StateManager {
     public static stateManager
 
     public static getStateManager() {

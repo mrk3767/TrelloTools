@@ -22,7 +22,7 @@
     "https://script.google.com/a/kenworthy.io"
   ],
   "gmail": {
-    "name": "QuickLinks",
+    "name": "TrelloTools",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/100px-External.svg.png",
     "contextualTriggers": [{
       "unconditional": {},

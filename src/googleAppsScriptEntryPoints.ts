@@ -1,7 +1,8 @@
 import {Trello} from "./Api/Trello/Trello";
 import {MainMenuUi} from "./Ui/MainMenuUi";
+import {StateManager} from "./Ui/StateManager"
 
-const APP_NAME = `quickLink`
+const APP_NAME = `TrelloTools`
 
 function handleUiUpdate(e) {
     // TODO: Create a whitelist for classes/methods that can be called

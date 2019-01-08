@@ -10,6 +10,11 @@ export class CardSubmitWidget {
             due: e.formInput.due,
             name: e.formInput.name,
         }).save(e.formInput.selectedList).addLinkAttachment(message.threadLink);
+
+        if (e.formInput.handlingOptions === "labelAndArchive") {
+            message.labelAsTrello().archive()
+        }
+
         return CardService.newNavigation()
             .popToRoot();
     }

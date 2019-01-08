@@ -17,6 +17,16 @@ class Message {
 
         this.subjectLine = this.message.getSubject()
     }
+    public labelAsTrello() {
+        const label = GmailApp.getUserLabelByName("Trello")
+        this.thread.addLabel(label)
+        return this
+    }
+
+    public archive() {
+        this.thread.moveToArchive()
+        return this
+    }
 }
 
 function getMessageDetails(e) {

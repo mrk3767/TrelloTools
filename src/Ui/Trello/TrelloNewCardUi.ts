@@ -3,7 +3,9 @@ import {CardDescriptionWidget} from "./CardDescriptionWidget";
 import {CardDueDateWidget} from "./CardDueDateWidget";
 import {CardNameWidget} from "./CardNameWidget";
 import {CardSubmitWidget} from "./CardSubmitWidget";
+import {LabelAndArchiveSelectionWidget} from "./LabelAndArchiveSelectionWidget";
 import {ListSelectionWidget} from "./ListSelectionWidget";
+import {StateManager} from "../StateManager";
 
 export class TrelloNewCardUi {
 
@@ -39,6 +41,7 @@ export class TrelloNewCardUi {
                 .addWidget(new CardNameWidget({subjectLine: this.state.subjectLine}).render())
                 .addWidget(new CardDescriptionWidget().render())
                 .addWidget(new CardDueDateWidget().render())
+                .addWidget(new LabelAndArchiveSelectionWidget().render())
                 .addWidget(new CardSubmitWidget().render()))
             .setHeader(CardService.newCardHeader().setTitle("Create a new card"))
             .build();
